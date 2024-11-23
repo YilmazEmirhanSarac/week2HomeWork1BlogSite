@@ -1,1 +1,1 @@
-# week2HomeWork1BlogSite
+- Patika+ week-2 homework-1 designing a blog site
