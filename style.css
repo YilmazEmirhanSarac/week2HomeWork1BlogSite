@@ -1,0 +1,178 @@
+* {
+    /* Font-family kısmında Arial, sans-serif kullandığımda <a> elementinden gelen alt çizgiden kurtulmama rağmen 
+    yine de alt çizgi görünüyordu. Bu yüzden sans-serif kullandım..*/
+    font-family: sans-serif, Arial ;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    background-color: var(--bg-color);
+}
+
+:root {
+    --bg-color: #f4f4f4;
+    --headerAndFooterText-color: white;
+    --headerAndFooter-color: #333;
+    --headers-color: #333;
+    --text-color: #666;
+}
+
+/* Header-navbar */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: block;
+    padding: 1rem;
+    text-align: center;
+    background-color: var(--headerAndFooter-color);
+    border: none;
+}
+
+.header h1,a {
+    background-color: var(--headerAndFooter-color);
+    color: var(--headerAndFooterText-color);
+}
+
+.navbar {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 1rem;
+    border-bottom: none;
+}
+
+.navbar ul {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-bottom: 1rem;
+    background-color: var(--headerAndFooter-color);
+    border: none;
+}
+
+.navbar li {
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+/* index.html section */
+.home {
+    background-color: var(--bg-color);
+    padding-top: 10rem;
+}
+
+.home h2 {
+    padding-left: 1rem;
+    color: var(--headers-color);
+}
+
+.home div {
+    padding-top: 3rem;
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.contentOne,.contentTwo {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    background-color: white;
+    width: 700px;
+    height: 450px;
+    border-radius: 0.5%;
+    align-items: center;
+    box-shadow: 4px 4px 32px var(--headerAndFooter-color), -4px -4px 32px var(--headerAndFooter-color);
+}
+
+.contentOne h3,p {
+    padding-top: 1rem;
+    background-color: white;
+}
+
+.contentOne p {
+    width: 100%;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    color: var(--text-color);
+}
+
+.contentOne h3 {
+    color: var(--headers-color);
+}
+
+.contentTwo h3,p {
+    padding-top: 1rem;
+    background-color: white;
+}
+
+.contentTwo p {
+    width: 100%;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    color: var(--text-color);
+}
+
+.contentTwo h3 {
+    color: var(--headers-color);
+}
+
+/* Footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: var(--headerAndFooter-color);
+    border: none;
+}
+
+footer p{
+    padding: 1.5rem;
+    background-color: var(--headerAndFooter-color);
+    color: var(--headerAndFooterText-color);
+}
+
+/* post.html */
+.homeTwo {
+    background-color: var(--bg-color);
+    padding-top: 10rem;
+}
+
+.homeDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.content h3 {
+    padding-top: 1rem;
+    background-color: white;
+    color: var(--headerAndFooter-color);
+}
+
+.content p {
+    padding: 2rem 0 2rem 0;
+    color: var(--text-color);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0.5rem 0 0.5rem;
+    background-color: white;
+    width: 98%;
+    height: auto;
+    border-radius: 0.5%;
+    align-items: center;
+    box-shadow: 4px 4px 32px var(--headerAndFooter-color), -4px -4px 32px var(--headerAndFooter-color);
+    border-radius: 0.5%;
+}
