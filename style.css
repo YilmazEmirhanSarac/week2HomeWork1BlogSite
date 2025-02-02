@@ -1,6 +1,4 @@
 * {
-    /* Font-family kısmında Arial, sans-serif kullandığımda <a> elementinden gelen alt çizgiden kurtulmama rağmen 
-    yine de alt çizgi görünüyordu. Bu yüzden sans-serif kullandım..*/
     font-family: sans-serif, Arial ;
     margin: 0;
     padding: 0;
